@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	pb "../proto/hello/hello"
+	pb "github.com/xiangfengpiaoling/go-grpc-example/blob/main/hello/proto/hello"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
